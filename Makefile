@@ -6,7 +6,7 @@ SCHEME = MuffinStoreJailed
 CONFIGURATION = Release
 SDK = iphoneos
 DERIVED_DATA_PATH = $(BUILD_DIR)
-
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
 all: ipa
 
 ipa:
